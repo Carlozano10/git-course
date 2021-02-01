@@ -1,0 +1,153 @@
+
+<!DOCTYPE HTML>
+<html lang = "es">
+	<head>
+		<title> Mi primera pagina web</title>
+	</head>
+	<body>
+		<h1>Titulo de mi pagina</h1> <!--etiqueta para títulos de página -->
+		<h2>Bienvenidos a mi web</h2>
+
+		<!--etiqueta para definir parrafos-->
+		<p>												
+			Este es el parrafo de mi pagina
+		</p> 
+
+		<p>												
+			Mauris tincidunt quam vitae neque molestie, vitae ultrices augue hendrerit. Vestibulum interdum ultricies nisi, et dictum dolor gravida eu. Cras ac placerat sem. Suspendisse felis lacus, suscipit sed sagittis nec, rhoncus sit amet enim. Sed faucibus massa vel mi tincidunt, a porttitor sem feugiat. Etiam tortor enim, mollis non lectus id, malesuada bibendum nisi. Maecenas molestie lorem et volutpat facilisis. Suspendisse eu pulvinar massa. In faucibus vulputate tempor. Aliquam erat volutpat. Maecenas nec feugiat lorem. Vestibulum ut ipsum sit amet libero fermentum sagittis.
+		</p> 
+
+		<p>												
+			Vivamus congue orci quis nunc bibendum facilisis. In vehicula fermentum tellus et pellentesque. Vestibulum sed elit cursus, dictum turpis nec, venenatis tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br/> Nullam fermentum enim tortor, nec sollicitudin erat vestibulum auctor. Duis eget ex semper, ullamcorper risus non, aliquam mauris. Pellentesque quis nibh magna. Vestibulum dignissim sed purus sed viverra. Etiam sodales libero a magna sodales, sit amet euismod orci elementum.
+		</p> 
+
+		<br/> <!--esta etiqueta sirve para agregar saltos de línea en párrafos (no tiene contenido)-->
+
+		<hr/> <!--esta etiqueta sirve para agregar un separado de línea (no tiene cuerpo o contenido)-->
+
+		<h2>Imagenes en HTML</h2>
+
+			<img src = "imagenes/leo.jpg" alt = "imagen de la constelacion de leo" title = "Constelacion de Leo " width = ""455px/>
+
+		<hr/>
+
+		<p>
+			Morbi eu feugiat dolor, in mattis nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras metus neque, commodo quis nisi id, scelerisque malesuada ipsum. Fusce lobortis molestie nisl. Integer quis hendrerit tortor. Sed ut tellus eget tellus hendrerit porttitor. Nunc a rhoncus erat, in vulputate lacus.
+		</p>
+
+		<h3>
+			Tercer encabezado de la pagina
+		</h3>
+
+		<p>
+			Donec eget bibendum massa. <strong> Donec egestas quam non mi ultrices </strong>facilisis sit amet vel sem. Proin laoreet lobortis ultrices. Pellentesque sodales, neque vel tincidunt suscipit, risus elit luctus enim, a pellentesque nisi dolor ut est. Duis facilisis nisi quis faucibus volutpat. <em>Vestibulum interdum suscipit mattis</em>. Cras vulputate tristique suscipit. Aenean eget molestie leo, nec condimentum diam. Praesent nec faucibus mauris, quis tincidunt eros. Maecenas bibendum et lorem id sagittis. Suspendisse laoreet lectus in libero maximus efficitur. Curabitur vitae convallis leo. <span id  = "resaltado" class = "rojo"> Sed sollicitudin </span> metus 
+
+			<blockquote>
+				non nulla ornare, lobortis interdum magna viverra. Nam diam diam, vulputate in odio sed, mattis congue nibh. Nam velit odio, rutrum vel tristique in, aliquam sit amet ex. Nunc consequat lacus lectus, ut scelerisque arcu molestie in.	
+			</blockquote>
+			metus neque, commodo quis nisi id, scelerisque malesuada ipsum. Fusce lobortis molestie nisl. Integer quis hendrerit tortor
+		</p>
+
+		<h3>Listado de constelaciones</h3>
+		<ol>
+			<li> Cassiopeia </li>
+			<li> Andromeda </li>
+			<li> Hercules </li>
+			<li> Tauro </li>
+			<li> Auriga </li>
+		</ol>
+
+		<ul>
+			<li> Orion 
+				<p> Estrellas </p>
+				<ol>
+					<li> Betelgueuse </li>
+					<li> Rigel </li>
+					<li> Bellatrix </li>
+					<li> Saiph </li>
+					<br/>
+				</ol>
+			</li>
+			<li> Pegaso </li>
+			<li> Leo 
+				<p> Estrellas </p>
+				<ul>
+					<li> Regulus </li>
+					<li> Denebola </li>
+				</ul>
+				<br/>
+			</li>
+			<li> Sagitario </li>
+			<li> Can mayor </li>
+		</ul>
+
+		<h3> Tablas </h3>
+		<table border = "1">
+			<tr>
+				<th> Nombre </th>
+				<th> Apellido </th>
+				<th> Pais </th>
+			</tr>
+			<tr>
+				<td> Carlos </td>
+				<td> Lozano </td>
+				<td> Mexico </td>
+			</tr>
+			<tr>
+				<td> Rebecca </td>
+				<td> Miguel </td>
+				<td> Mexico </td>
+			</tr>
+		</table>
+
+		<h3>Formulario</h3>
+		<form>
+			<p>
+				<label for = "nombre"> Nombre </label>
+				<input type = "text" name = "nombre" placeholder="Escribe tu nombre..."/>
+			</p>
+			<p>
+				<label for = "descripcion"> Descripcion </label>
+				<textarea name = "descripcion"></textarea>
+			</p>
+
+			<input type="radio" name="genero" value = "hombre"> Hombre <br/>
+			<input type="radio" name="genero" value = "mujer"> Mujer <br/>
+			<input type="radio" name="genero" value = "nada"> Nada <br/>
+
+			<select name = "genero2">
+				<option value = "hombre"> Hombre </option>
+				<option value = "mujer"> Mujer </option>
+				<option value = "nada"> Nada </option>
+			</select> 
+
+			<input type="submit" value = "Enviar formulario"/>
+
+		</form>
+
+		<br/>
+		<br/>
+
+
+		<!-- <strong> etiqueta para negritas> -->
+		<!-- <em> e <i> etiquetas para cursiva -->
+		<!-- <blockquote> agrega texto cen formato de cita -->
+		<!-- <ol> agrega una lista ordenada-->
+		<!-- <li> agrega elemtno a lista-->
+		<!-- <ul> agrega lista desordenada-->
+		<!-- <table border = "1"> agrega tabla -->
+		<!-- <tr> agrega filas a tabla-->
+		<!-- <th> agrega columnas a la tabla en negritas (para encabezado de columna)-->
+		<!-- <td> agrega columnas en texto normal (contenido) -->
+		<!-- <form> agrega un formulario -->
+		<!-- <label> agrega etiquetas-->
+		<!-- <input type = "text" placeholder = "nombre..." agrega cuadro para intriducir texto
+			placeholder sirve para mantener texto en el cuado antes de escribirle algo -->
+		<!-- <textarea> agrega area para agregar texto-->
+		<!-- <input type = "radio" value = "algo" agrega un radiobutton-->
+		<!-- <select> agrega selector-->
+		<!-- <option> agrega opcion al selector-->
+		<!-- <input type = "submit" value = "Enviar"> agrega boton para enviar formulario-->
+
+	</body>	
+</html>
